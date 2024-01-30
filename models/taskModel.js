@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const taskSchema=mongoose.Schema({
-    user:{
+    user_id:{
         type:mongoose.Types.ObjectId,
         required:[true, "Please provide a userID"]
     },
