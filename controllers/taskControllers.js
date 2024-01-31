@@ -1,5 +1,5 @@
 import asyncHandler from "express-async-handler";
-import {Task} from "../models/taskModel";
+import {Task} from "../models/taskModel.js";
 
 //@desc Get all tasks
 //@route GET /api/tasks
